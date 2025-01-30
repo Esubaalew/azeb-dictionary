@@ -1,0 +1,22 @@
+{
+  "name": "Azeb's Dictionary",
+  "short_name": "AZ Dict",
+  "description": "A comprehensive online dictionary dedicated to exploring the world of words.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4a148c",
+  "theme_color": "#4a148c",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+

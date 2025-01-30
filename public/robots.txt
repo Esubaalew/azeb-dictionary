@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azeb.esube.com.et/sitemap.xml
+

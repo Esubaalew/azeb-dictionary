@@ -7,12 +7,14 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Azeb's Dictionary",
-  description: "A tribute to Azeb Mehrete - Explore the world of words with our comprehensive dictionary",
+  description:
+    "A tribute to Azeb Mehrete - Explore the world of words with our comprehensive dictionary. Dive into definitions, etymology, and usage examples for every word.",
   keywords: "dictionary, words, definitions, language, Azeb Mehrete",
   authors: [{ name: "Esubalew Chekol" }],
   openGraph: {
     title: "Azeb's Dictionary",
-    description: "Explore the world of words with our comprehensive dictionary",
+    description:
+      "Explore the world of words with our comprehensive dictionary. Dive into definitions, etymology, and usage examples for every word.",
     url: "https://azeb.esube.com.et",
     siteName: "Azeb's Dictionary",
     images: [
@@ -29,7 +31,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Azeb's Dictionary",
-    description: "Explore the world of words with our comprehensive dictionary",
+    description:
+      "Explore the world of words with our comprehensive dictionary. Dive into definitions, etymology, and usage examples for every word.",
     images: ["https://azeb.esube.com.et/og-image.png"],
   },
   other: {
@@ -62,8 +65,11 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <script 
-          async 
+    
+        <meta name="publication-date" content="2025-01-31" />
+     
+        <script
+          async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8765857492346495"
           crossOrigin="anonymous"
         />

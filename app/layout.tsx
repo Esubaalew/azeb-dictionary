@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: "Azeb's Dictionary",
     images: [
       {
-        url: "https://azeb.esube.com.et/new-og-image.png",
+        url: "https://azeb.esube.com.et/og-image.png",
         width: 1200,
         height: 630,
         alt: "Azeb's Dictionary - Explore the world of words",
@@ -30,18 +30,18 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Azeb's Dictionary",
     description: "Explore the world of words with our comprehensive dictionary",
-    images: ["https://azeb.esube.com.et/new-og-image.png"],
+    images: ["https://azeb.esube.com.et/og-image.png"],
   },
   other: {
-    "og:image": "https://azeb.esube.com.et/new-og-image.png",
+    "og:image": "https://azeb.esube.com.et/og-image.png",
     "og:image:width": "1200",
     "og:image:height": "630",
     "og:image:alt": "Azeb's Dictionary - Explore the world of words",
-    "facebook:image": "https://azeb.esube.com.et/facebook-image.png",
-    "telegram:image": "https://azeb.esube.com.et/telegram-image.png",
-    "slack:image": "https://azeb.esube.com.et/slack-image.png",
-    "linkedin:image": "https://azeb.esube.com.et/linkedin-image.png",
-    "discord:image": "https://azeb.esube.com.et/discord-image.png",
+    "facebook:image": "https://azeb.esube.com.et/og-image.png",
+    "telegram:image": "https://azeb.esube.com.et/og-image.png",
+    "slack:image": "https://azeb.esube.com.et/og-image.png",
+    "linkedin:image": "https://azeb.esube.com.et/og-image.png",
+    "discord:image": "https://azeb.esube.com.et/og-image.png",
   },
   manifest: "/manifest.json",
   themeColor: "#4a148c",
@@ -76,4 +76,3 @@ export default function RootLayout({
     </html>
   )
 }
-

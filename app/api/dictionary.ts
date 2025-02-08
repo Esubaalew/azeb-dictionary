@@ -1,4 +1,4 @@
-const domain = 'https://aziye.esube.com.et';
+const domain = 'https://aziye.esubalew.et';
 
 export async function getEntries(word: string) {
   try {

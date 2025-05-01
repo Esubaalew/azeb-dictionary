@@ -10,11 +10,11 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "Azeb's Dictionary",
-          "url": "https://azeb.esube.com.et",
+          "url": "https://azeb.esubalew.et",
           "description": "A comprehensive online dictionary dedicated to exploring the world of words.",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://azeb.esube.com.et/search?q={search_term_string}",
+            "target": "https://azeb.esubalew.et/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         }}
